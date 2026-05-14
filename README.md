@@ -14,8 +14,8 @@ topic includes a PDF and a matching `.txt` file with the SlideShare description.
 | 04 | Technical Laboratory Report: Transistor | [link](https://www.slideshare.net/slideshow/technical-laboratory-report-transistor-ulker-aliyeva-nazile-aliyeva-fazil-isgender-ali-shukurov-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku-5488/286914741) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender · Ali Shukurov | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 | 05 | Capacitor | [link](https://www.slideshare.net/slideshow/capacitor-description-ulkar-aliyeva-imran-cherchiyev-xaqani-cafarli-pptx/286799787) | Ulkar Aliyeva · Imran Cherchiyev · Xaqani Cafarli | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 | 06 | Technical Laboratory Report: Voltage Regulator | [link](https://www.slideshare.net/slideshow/technical-laboratory-report-voltage-regulator-ulker-aliyeva-nazile-aliyeva-fazil-isgender-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287505121) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
-| 07 | Operational Amplifiers (Op-Amps) | [link](https://www.slideshare.net/slideshow/sarkhan-babayev-nazrin-sharbatli-ilkin-majidov-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287466396) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
-| 08 | Field Effect Transistors (FETs) | [link](https://www.slideshare.net/slideshow/sarkhan-babayev-farid-alakbarov-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287120281) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
+| 07 | Technical Laboratory Report: Light-Sensitive Switch (LDR & Voltage Divider) | [link](https://www.academia.edu/166125872/Technical_Laboratory_Report_The_Light_Sensitive_Switch_LDR_Voltage_Divider) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
+| 08 | Electronics Project — 12/03 | [link](https://www.notion.so/Electronics-project-12-03-321bd0fa66d980c0862fe754a10fa3b2) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 
 ---
 
@@ -312,51 +312,41 @@ Power Systems laboratory module.
 --------------------
 7.Topic
 
-https://www.slideshare.net/slideshow/sarkhan-babayev-nazrin-sharbatli-ilkin-majidov-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287466396
+https://www.academia.edu/166125872/Technical_Laboratory_Report_The_Light_Sensitive_Switch_LDR_Voltage_Divider
 
 verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
 https://www.instagram.com/physics_teacher_azerbaijan
 
-# Operational Amplifiers (Op-Amps) — Comprehensive Overview
+# Technical Laboratory Report — The Light-Sensitive Switch (LDR & Voltage Divider)
 
-A technical breakdown of the core principles, parameters, and applications of
-Operational Amplifiers, as illustrated in the provided visual materials.
+A laboratory report on the design, simulation, and analysis of a Light-Sensitive
+Switch built around a Light Dependent Resistor (LDR) and a voltage-divider
+network. The LDR's resistance varies with ambient illumination; combined with a
+fixed resistor it forms a voltage divider whose output reflects light intensity.
+This output is used to switch a load on or off when light crosses a chosen
+threshold — the basis of automatic street lights, dark-activated alarms, and
+many sensor-driven circuits.
 
 **Authors:** Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender
 **Verified by:** Telman Askeraliyev — Physics Teacher, Azerbaijan, Baku (Fizika Muellimi)
 
 ---
 
-## Overview
+## Topics Covered
 
-### 1. Introduction & Key Parameters
+- **LDR Working Principle** — Photoresistive material whose resistance falls as light increases
+- **Voltage Divider** — `V_out = V_S × R / (R + R_LDR)` giving a light-dependent voltage
+- **Threshold Selection** — Choosing R to set the switching light level
+- **Switching Element** — Transistor/comparator that turns the load on at threshold
+- **Practical Design** — Component selection, supply considerations, real measurements
+- **Applications** — Automatic lighting, dark-activated alarms, light-sensing toys
 
-Operational Amplifiers are high-gain electronic voltage amplifiers with differential inputs. Understanding their parameters is essential for circuit design:
+---
 
-- **Input Modes** — Differential Mode (amplifying the difference between two inputs) or Common Mode (rejecting signals common to both)
-- **Impedance** — Ideally infinite Input Impedance (drawing no current) and zero Output Impedance
-- **Slew Rate** — Maximum rate of change of the output voltage per unit of time (V/μs)
-- **Non-Idealities** — Input Bias Current and Input Offset Voltage introduce small errors in precision circuits
+## Hosting
 
-### 2. The Power of Negative Feedback
-
-Most Op-Amp applications utilize a Negative Feedback Loop — returning a portion of the output to the inverting input.
-
-- **Gain Stabilization** — Open-loop gain is extremely high and unstable; feedback gives precise, predictable Closed-Loop Gain
-- **Improved Linearity** — Reduces distortion, makes performance less dependent on temperature or manufacturing variations
-- **Trade-off** — Feedback increases Bandwidth at the expense of total gain
-
-### 3. Frequency and Phase Response
-
-- **Gain-Bandwidth Product (GBP)** — As input frequency increases, open-loop gain drops
-- **Phase Shift** — At higher frequencies, phase lag occurs; Phase Margin must be monitored to prevent oscillation
-
-### 4. Common Configurations & Applications
-
-- **Comparator** — Compares two voltages, switches output to positive or negative supply rail
-- **Summing Amplifier** — Combines multiple inputs weighted by resistor values: `V_out = -(R_f / R_in) × (V_1 + V_2 + V_3)`
-- **Integrator** — Output proportional to the integral of the input over time (used in filters)
-- **Differentiator** — Output proportional to the rate of change of the input signal
+Full report (with figures and lab data) is hosted on Academia.edu — see the link
+at the top of this section.
 
 ---
 
@@ -364,85 +354,50 @@ Most Op-Amp applications utilize a Negative Feedback Loop — returning a portio
 
 | File | Description |
 |------|-------------|
-| `07_operational_amplifiers.pdf` | Full Op-Amp visual overview (1 slide) |
-| `07_operational_amplifiers.txt` | SlideShare description |
+| `07_light_sensitive_switch.txt` | Topic description and link to the full report |
 
 ---
 
 ## Subject
 
-- **Field:** Electronics / Analog Signal Processing
-- **Type:** Technical Overview
+- **Field:** Electronics / Sensor Circuits
+- **Type:** Technical Laboratory Report
 - **Language:** English
-- **Tags:** electricity, physics, telecommunications
 - **Location:** Azerbaijan, Baku
 
 --------------------
 8.Topic
 
-https://www.slideshare.net/slideshow/sarkhan-babayev-farid-alakbarov-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287120281
+https://www.notion.so/Electronics-project-12-03-321bd0fa66d980c0862fe754a10fa3b2
 
 verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
 https://www.instagram.com/physics_teacher_azerbaijan
 
-# Field Effect Transistors (FETs) — Comprehensive Technical Report
+# Electronics Project — 12/03
 
-A 6-page engineering documentary covering FET theory, JFET structure, biasing
-methods, and the ohmic operating region. Field Effect Transistors are
-voltage-controlled semiconductor devices used to regulate current flow, with
-high input impedance, low noise, and broad use in both analog and digital
-circuits. MOSFETs are the foundation of modern electronics including
-microprocessors and power systems.
+A live electronics project workspace maintained on Notion, covering the project
+plan, schematics, design notes, simulation/measurement results, and conclusions
+for the 12/03 milestone.
 
 **Authors:** Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender
 **Verified by:** Telman Askeraliyev — Physics Teacher, Azerbaijan, Baku (Fizika Muellimi)
-**Date:** April 2026
 
 ---
 
-## Report Overview
+## Workspace Contents
 
-| # | Section | Content |
-|---|---------|---------|
-| 01 | Introduction to FETs | Three-terminal voltage-controlled device, unipolar operation |
-| 02 | Operating Principle | Gate voltage modulates channel conductivity |
-| 03 | FET vs BJT | Input impedance, noise, thermal stability, density comparison |
-| 04 | JFET Structure | n-channel vs p-channel, depletion region behaviour |
-| 05 | Regions of Operation | Ohmic, Saturation, Breakdown regions |
-| 06 | Biasing Methods | Self bias, Voltage divider, Current source |
+- Project objective and scope
+- Component list and circuit schematic
+- Step-by-step build / simulation notes
+- Measurements, observations, and analysis
+- Conclusions and next steps
 
 ---
 
-## FET vs BJT Comparison
+## Hosting
 
-| Parameter | FET Advantage |
-|-----------|---------------|
-| Input Impedance | Extremely High (MΩ to TΩ) — gate draws negligible current |
-| Noise Figure | Low Noise — less shot and recombination noise |
-| Thermal Stability | High — negative temperature coefficient |
-| Manufacturing Density | Very High — scales to nanometers |
-| Offset Voltage | Near Zero — no base-emitter requirement |
-
----
-
-## Key Equations
-
-| Quantity | Formula |
-|----------|---------|
-| Shockley equation | `ID = IDSS × (1 - VGS / VGS(off))²` |
-| Self-bias formula | `VGS = -ID × RS` |
-| Maximum drain current | `IDSS` |
-| Cutoff voltage | `VGS(off)` |
-
----
-
-## Biasing Methods
-
-| Method | Stability | Use |
-|--------|-----------|-----|
-| Self Bias | Medium | Simple circuits |
-| Voltage Divider | High | Precision circuits |
-| Current Source | Very High | IC design |
+Full project notes, attachments, and ongoing updates are maintained in the
+linked Notion page above.
 
 ---
 
@@ -450,14 +405,13 @@ microprocessors and power systems.
 
 | File | Description |
 |------|-------------|
-| `08_field_effect_transistors.pdf` | Full 6-page FET technical report |
-| `08_field_effect_transistors.txt` | SlideShare description |
+| `08_electronics_project_12_03.txt` | Topic description and link to the Notion workspace |
 
 ---
 
 ## Subject
 
-- **Field:** Electronics / Semiconductor Devices
-- **Type:** Engineering Documentary
+- **Field:** Electronics / Project Documentation
+- **Type:** Live Project Workspace
 - **Language:** English
 - **Location:** Azerbaijan, Baku
