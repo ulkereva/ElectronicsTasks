@@ -13,6 +13,7 @@ topic includes a PDF and a matching `.txt` file with the SlideShare description.
 | 03 | Technical Laboratory Report: Amplifier | [link](https://www.slideshare.net/slideshow/technical-laboratory-report-amplifier-ulker-aliyeva-nazile-aliyeva-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287037036) | Ulker Aliyeva · Nazile Aliyeva | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 | 04 | Technical Laboratory Report: Transistor | [link](https://www.slideshare.net/slideshow/technical-laboratory-report-transistor-ulker-aliyeva-nazile-aliyeva-fazil-isgender-ali-shukurov-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku-5488/286914741) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender · Ali Shukurov | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 | 05 | Capacitor | [link](https://www.slideshare.net/slideshow/capacitor-description-ulkar-aliyeva-imran-cherchiyev-xaqani-cafarli-pptx/286799787) | Ulkar Aliyeva · Imran Cherchiyev · Xaqani Cafarli | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
+| 06 | Technical Laboratory Report: Voltage Regulator | [link](https://www.slideshare.net/slideshow/technical-laboratory-report-voltage-regulator-ulker-aliyeva-nazile-aliyeva-fazil-isgender-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287505121) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 
 ---
 
@@ -244,5 +245,64 @@ conductive plates separated by a dielectric.
 
 - **Field:** Electronics / Passive Components
 - **Type:** Educational Infographic
+- **Language:** English
+- **Location:** Azerbaijan, Baku
+
+--------------------
+6.Topic
+
+https://www.slideshare.net/slideshow/technical-laboratory-report-voltage-regulator-ulker-aliyeva-nazile-aliyeva-fazil-isgender-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287505121
+
+verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
+https://www.instagram.com/physics_teacher_azerbaijan
+
+# Voltage Regulators — Principles, Types & Applications
+
+An 8-slide technical laboratory report on voltage regulators — devices that
+maintain a constant output voltage despite variations in input voltage, load
+current, or temperature. Prepared as part of an Electronics Engineering /
+Power Systems laboratory module.
+
+**Authors:** Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender
+**Verified by:** Telman Askeraliyev — Physics Teacher, Azerbaijan, Baku (Fizika Muellimi)
+
+---
+
+## Topics Covered
+
+- **Definition** — Active circuits that maintain a stable DC output voltage
+- **Linear Regulators** — Series-pass transistor controlled by feedback (LDO, fixed, adjustable)
+- **Switching Regulators** — Buck (step-down), Boost (step-up), Buck-Boost topologies
+- **Key Parameters** — Line regulation, load regulation, dropout voltage, efficiency, ripple
+- **Common ICs** — 78xx / 79xx fixed regulators, LM317 adjustable, LM7805 family
+- **Applications** — Power supplies, microcontroller power rails, battery-powered devices, automotive electronics
+
+---
+
+## Linear vs Switching Regulators
+
+| Property | Linear | Switching |
+|----------|--------|-----------|
+| Efficiency | Low (V_out / V_in) | High (up to 95%) |
+| Heat dissipation | High | Low |
+| Output noise | Very low | Switching ripple present |
+| Complexity | Simple | More complex (inductor + control) |
+| Best use | Low ΔV, low current | High ΔV or high current |
+
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `06_voltage_regulator.pdf` | Full 8-slide voltage regulator laboratory report |
+| `06_voltage_regulator.txt` | SlideShare description |
+
+---
+
+## Subject
+
+- **Field:** Electronics Engineering / Power Systems
+- **Type:** Technical Laboratory Report
 - **Language:** English
 - **Location:** Azerbaijan, Baku
