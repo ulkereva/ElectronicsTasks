@@ -16,6 +16,7 @@ topic includes a PDF and a matching `.txt` file with the SlideShare description.
 | 06 | Technical Laboratory Report: Voltage Regulator | [link](https://www.slideshare.net/slideshow/technical-laboratory-report-voltage-regulator-ulker-aliyeva-nazile-aliyeva-fazil-isgender-verified-by-physics-teacher-azerbaijan-telman-askeraliyev-fizika-muellimi-azerbaijan-baku/287505121) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 | 07 | Technical Laboratory Report: Light-Sensitive Switch (LDR & Voltage Divider) | [link](https://www.academia.edu/166125872/Technical_Laboratory_Report_The_Light_Sensitive_Switch_LDR_Voltage_Divider) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 | 08 | Electronics Project — 12/03 | [link](https://www.notion.so/Electronics-project-12-03-321bd0fa66d980c0862fe754a10fa3b2) | Ulker Aliyeva · Nazile Aliyeva · Fazil Isgender | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
+| 09 | Physics Guide: Field Effect Transistors (FETs) | [link](https://www.slideshare.net/slideshow/pyysics-guide-field-effect-transistors-fets-nazrin-aliyeva-ulkar-aliyeva-nazila-aliyeva-ali-shukurov/287153252) | Nazrin Aliyeva · Ulkar Aliyeva · Nazila Aliyeva · Ali Shukurov · Fazil Isgandar | verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: [LinkedIn](https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/) · [Instagram](https://www.instagram.com/physics_teacher_azerbaijan) |
 
 ---
 
@@ -413,5 +414,77 @@ linked Notion page above.
 
 - **Field:** Electronics / Project Documentation
 - **Type:** Live Project Workspace
+- **Language:** English
+- **Location:** Azerbaijan, Baku
+
+--------------------
+9.Topic
+
+https://www.slideshare.net/slideshow/pyysics-guide-field-effect-transistors-fets-nazrin-aliyeva-ulkar-aliyeva-nazila-aliyeva-ali-shukurov/287153252
+
+verified by: physics teacher azerbaijan telman askeraliyev (fizika muellimi) – contact: https://www.linkedin.com/in/physics-teacher-azerbaijan-telman-askeraliyev/
+https://www.instagram.com/physics_teacher_azerbaijan
+
+# Physics Guide: Field Effect Transistors (FETs)
+
+A 7-slide visual physics guide on Field Effect Transistors — covering JFET and
+MOSFET structure and behaviour, key parameters, biasing configurations, and a
+set of review questions and exercises.
+
+**Authors:** Nazrin Aliyeva · Ulkar Aliyeva · Nazila Aliyeva · Ali Shukurov · Fazil Isgandar
+**Verified by:** Telman Askeraliyev — Physics Teacher, Azerbaijan, Baku (Fizika Müəllimi)
+
+---
+
+## Slide Overview
+
+| # | Section | Content |
+|---|---------|---------|
+| 1 | What is a FET? | Voltage-controlled device, high input impedance, low power consumption |
+| 2 | Types of FETs | JFET (Junction Gate) vs MOSFET (Metal-Oxide Semiconductor) |
+| 3 | JFET Characteristics | Shockley equation, I_DSS, pinch-off voltage V_P |
+| 4 | MOSFET Characteristics | Operating regions: cut-off, triode/linear, saturation; threshold voltage |
+| 5 | Important Parameters | Drain current at V_GS = 0, pinch-off voltage, threshold voltage, transconductance, output & input resistance |
+| 6 | Biasing Configurations | JFET biasing (reverse-biased gate via R_S) and MOSFET biasing (voltage divider) |
+| 7 | Questions & Exercises | Transfer characteristics, JFET vs MOSFET comparison, MOSFET bias-point design |
+
+---
+
+## Key Equations
+
+| Quantity | Formula |
+|----------|---------|
+| Shockley equation (JFET) | `I_D = I_DSS × (1 − V_GS / V_P)²` |
+| Max drain current | `I_DSS` (at V_GS = 0) |
+| Pinch-off voltage | `V_P` (JFET) |
+| Threshold voltage | `V_th` (MOSFET) |
+
+---
+
+## JFET vs MOSFET
+
+| Property | JFET | MOSFET |
+|----------|------|--------|
+| Gate type | PN-junction (reverse biased) | Insulated by oxide layer |
+| Input impedance | Very high | Extremely high |
+| Modes | Depletion-mode | Depletion or Enhancement |
+| Biasing | Self-bias via R_S | Voltage divider |
+| Use | Analog signal stages | Digital logic, power switching |
+
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `09_physics_guide_fets.pdf` | Full 7-slide Physics Guide on FETs |
+| `09_physics_guide_fets.txt` | SlideShare description |
+
+---
+
+## Subject
+
+- **Field:** Electronics / Semiconductor Devices
+- **Type:** Educational Visual Guide
 - **Language:** English
 - **Location:** Azerbaijan, Baku
